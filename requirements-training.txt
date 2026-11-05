@@ -1,0 +1,15 @@
+# Dependências do treinamento (notebooks/training_ssd.ipynb).
+# Requer Python 3.9-3.11 (TensorFlow 2.15 não tem build para versões mais novas).
+# A TensorFlow Object Detection API é clonada/instalada pelo próprio notebook.
+-r requirements.txt
+tensorflow==2.15.*
+pyyaml
+Pillow
+cycler
+pytz
+pyarrow
+pandas
+gin-config
+matplotlib
+wget
+jupyter

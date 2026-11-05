@@ -1,0 +1,3 @@
+# Dependências do gerador de placas sintéticas (src/generate_boards.py)
+numpy>=1.26
+opencv-python>=4.9

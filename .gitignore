@@ -1,0 +1,36 @@
+# --- Dados (grandes / reprodutíveis) -------------------------------------
+# Dataset original de soldas e placas sintéticas geradas pelo script.
+# Veja data/README.md para saber como obtê-los/gerá-los.
+data/raw/
+data/synthetic/
+
+# --- Treinamento (TensorFlow Object Detection API) ------------------------
+# O notebook clona o repositório tensorflow/models e baixa o modelo pré-treinado
+# dentro de ./Tensorflow (relativo ao diretório onde o notebook é executado).
+Tensorflow/
+**/Tensorflow/
+*.record
+*.tar.gz
+*.ckpt*
+checkpoint
+saved_model/
+protoc*/
+bin/
+events.out.tfevents.*
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# --- Editor / sistema operacional -----------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

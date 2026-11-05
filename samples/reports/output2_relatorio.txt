@@ -1,0 +1,7 @@
+Relatorio de contagem de soldas para a placa: output2
+
+Soldas_ausente: 6
+Soldas_boas: 1
+Soldas_excesso: 10
+Soldas_ponte: 5
+Soldas_pouca: 18
